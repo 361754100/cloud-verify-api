@@ -8,6 +8,6 @@ public class RsaController {
 
     @GetMapping("/test")
     public boolean test() {
-        return true;
+        return false;
     }
 }
