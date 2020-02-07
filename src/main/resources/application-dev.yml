@@ -12,6 +12,6 @@ eureka:
       defaultZone: http://hero:123456@localhost:8761/eureka/
   instance:
     prefer-ip-address: true
-    instance-id: ${spring.application.name}-${server.port}
+    instance-id: ${spring.application.name}-${spring.cloud.client.ip-address}-${server.port}
 
 
