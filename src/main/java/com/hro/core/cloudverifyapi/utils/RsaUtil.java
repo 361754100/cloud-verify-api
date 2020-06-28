@@ -36,8 +36,8 @@ public class RsaUtil {
 	
 	public static final String KEY_ALGORITHM = "RSA";
 	public static final String SIGNATURE_ALGORITHM = "SHA1WithRSA";
-	private static final String PUBLIC_KEY = "tokenRsaPublicKey";
-    private static final String PRIVATE_KEY = "tokenRSAPrivateKey";
+	public static final String PUBLIC_KEY = "tokenRsaPublicKey";
+	public static final String PRIVATE_KEY = "tokenRSAPrivateKey";
 	public static final String ENCODING = "utf-8";
 	public static final String X509 = "X.509";
 
